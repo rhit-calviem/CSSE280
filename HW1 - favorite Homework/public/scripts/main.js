@@ -1,0 +1,35 @@
+main = function() {
+    console.log("Ready");
+    document.querySelector("#decrementButton").onclick = (event) => {
+        console.log("decrement button");
+        counter = counter - 1;
+        updateView();
+    };
+    document.querySelector("#resetButton").onclick = (event) => {
+        console.log("reset button");
+        counter = 0;
+        updateView();
+    };
+    document.querySelector("#incrementButton").onclick = (event) => {
+        console.log("increment button");
+        counter = counter + 1;
+        updateView();
+    };
+
+    document.querySelector('#blueButton').onclick = (event) => {
+        console.log("blue");
+
+    }
+}
+
+updateView = function() {
+    document.querySelector("#counterText").innerHTML = `${counter}`;
+}
+
+changeColors = function() {
+    document.querySelector("squareColor")
+}
+
+let counter = 0;
+
+main();

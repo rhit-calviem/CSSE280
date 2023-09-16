@@ -1,0 +1,49 @@
+.body {
+    background:white;
+}
+.page_container {
+    margin-top: 75px;
+}
+.button-group {
+    padding: 5vw;
+    text-align: center;
+    
+}
+.button-group > button {
+    font-size: 1.5em;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+    color: yellow;
+}
+#counterText {
+    color: black;
+    font-family: consolas, arial, sans-serif;
+    font-size: 4em;
+    text-align: center;
+}
+#colorContainer{
+    text-align: center;
+    font-size: 1.5em;
+}
+.button-group2 > button {
+    font-size: 1em;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+#squareColor{
+    background-color: black;
+}
+#redButton{  
+    color: red;
+}
+#blueButton{  
+    color: blue;
+}
+#purpleButton{ 
+    color: purple;  
+}
+#pinkButton{
+    color: pink;
+}
