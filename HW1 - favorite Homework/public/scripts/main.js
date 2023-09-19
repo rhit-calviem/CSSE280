@@ -18,7 +18,22 @@ main = function() {
 
     document.querySelector('#blueButton').onclick = (event) => {
         console.log("blue");
+        changeColor("blue");
+    }
 
+    document.querySelector('#pinkButton').onclick = (event) => {
+        console.log("pink");
+        changeColor("pink");
+    }
+
+    document.querySelector('#greenButton').onclick = (event) => {
+        console.log("green");
+        changeColor("green");
+    }
+
+    document.querySelector('#redButton').onclick = (event) => {
+        console.log("red");
+        changeColor("red");
     }
 }
 
@@ -26,8 +41,9 @@ updateView = function() {
     document.querySelector("#counterText").innerHTML = `${counter}`;
 }
 
-changeColors = function() {
-    document.querySelector("squareColor")
+changeColor = function(color) {
+    document.querySelector("#coloredBox").style.backgroundColor=color;
+    document.querySelector("#coloredBox").innerHTML = `${color}`;
 }
 
 let counter = 0;

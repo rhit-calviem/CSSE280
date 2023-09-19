@@ -15,31 +15,64 @@
     <body>
         <nav class="navbar navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Counter</a>
+                <a class="navbar-brand" href="#">Favorite Things</a>
             </div>
         </nav>
+        
         <div id="mainPage" class="container page-container">
-            <h2>Favorite Number</h2>
+            <div>Favorite Number:</div>
             <div id="counterText">0</div>
-            <div class="button-group, g-0">
-                <button id="decrementButton" type="button" class="btn btn-secondary, col-md-2">-1</button>
-                <button id="resetButton" type="button" class="btn btn-secondary, col-md-2">Reset</button>
-                <button id="incrementButton" type="button" class="btn btn-secondary, col-md-2">+1</button> 
+            <div class="button-group g-0">
+                <button id="decrementButton" type="button" class="btn btn-secondary mb-2">-1</button>
+                <button id="resetButton" type="button" class="btn btn-secondary mb-2">Reset</button>
+                <button id="incrementButton" type="button" class="btn btn-secondary mb-2">+1</button> 
             </div>
+            <!-- <div class="button-group g-0">
+                <div class="row">
+                    <div class="col-md-4">
+                        <button id="decrementButton" type="button" class="btn btn-secondary mb-2">-1</button>
+                    </div>
+                    <div class="col-md-4">
+                        <button id="resetButton" type="button" class="btn btn-secondary mb-2">Reset</button>
+                    </div>
+                    <div class="col-md-4">
+                        <button id="incrementButton" type="button" class="btn btn-secondary mb-2">+1</button>
+                    </div>
+                </div>
+            </div>     -->
+    
             <hr>
 
-            <h2>Favorite Color</h2>
-            <div id="colorContainer" class="container page-container">
-                <div id="squareColor">Color</div>
-                <div class="button-group2, g-0">
-                    <button id="redButton" type="button" class="btn btn-secondary, col-md-2">Red</button>
-                    <button id="blueButton" type="button" class="btn btn-secondary, col-md-2">Blue</button>
-                    <button id="purpleButton" type="button" class="btn btn-secondary, col-md-2">Purple</button>
-                    <button id="pinkButton" type="button" class="btn btn-secondary, col-md-2">Pink</button>
+            <div>Favorite Color:</div>
+            <div id="coloredBox">Color</div>
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="button-group2 g-0">
+                    <button id="pinkButton" type="button" class="btn btn-secondary mb-2">Pink</button>
+                    <button id="blueButton" type="button" class="btn btn-secondary mb-2">Blue</button>
+                    <button id="greenButton" type="button" class="btn btn-secondary mb-2">Green</button>
+                    <button id="redButton" type="button" class="btn btn-secondary mb-2"> Red</button>
                 </div>
             </div>
+            <!-- <div class="button-group2 g-0">
+                <div class="row">
+                    <div class="col-md-3">
+                        <button id="pinkButton" type="button" class="btn btn-secondary mb-2">Pink</button>
+                    </div>
+                    <div class="col-md-3">
+                        <button id="blueButton" type="button" class="btn btn-secondary mb-2">Blue</button>
+                    </div>
+                    <div class="col-md-3">
+                        <button id="greenButton" type="button" class="btn btn-secondary mb-2">Green</button>
+                    </div>
+                    <div class="col-md-3">
+                        <button id="redButton" type="button" class="btn btn-secondary mb-2">Red</button>
+                    </div>
+                </div>
+            </div> -->
+
             <hr>
-        </div>
+            
+        </div>  
 
         <script src="scripts/main.js"></script>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js' integrity='sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==' crossorigin='anonymous'></script>

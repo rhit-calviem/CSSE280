@@ -4,17 +4,16 @@
 .page_container {
     margin-top: 75px;
 }
-.button-group {
+.button-group, .button-group2 {
     padding: 5vw;
     text-align: center;
-    
 }
-.button-group > button {
-    font-size: 1.5em;
-    margin: 10px;
+.button-group > button, .button-group2 > button {
+    font-size: 1em;
+    margin: 1px;
     padding: 10px;
-    background-color: black;
-    color: yellow;
+    color: black;
+    width: 100px;
 }
 #counterText {
     color: black;
@@ -22,28 +21,25 @@
     font-size: 4em;
     text-align: center;
 }
-#colorContainer{
+#coloredBox {
     text-align: center;
-    font-size: 1.5em;
-}
-.button-group2 > button {
-    font-size: 1em;
-    margin: 10px;
-    padding: 10px;
     background-color: black;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 5px;
+    height: 100px;
+    color: white;
 }
-#squareColor{
-    background-color: black;
+#pinkButton {
+    background-color: pink;
 }
-#redButton{  
-    color: red;
+#blueButton {
+    background-color: blue;
 }
-#blueButton{  
-    color: blue;
+#greenButton {
+    background-color: green;
 }
-#purpleButton{ 
-    color: purple;  
-}
-#pinkButton{
-    color: pink;
+#redButton {
+    background-color: red;
 }
