@@ -1,36 +1,42 @@
-.body {
-    background:white;
-}
+body {
+    background-color: grey}
 .page_container {
     margin-top: 75px;
 }
-.button-group, .button-group2 {
-    padding: 5vw;
+.button-group {
     text-align: center;
 }
-.button-group > button, .button-group2 > button {
-    font-size: 1em;
-    margin: 1px;
-    padding: 10px;
-    color: black;
-    width: 100px;
+.button-group > button {
+    font-size: 1.5em;
+    background: indigo;
+    padding:15px;
+    color: yellow;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family:'Times New Roman', Times, serif;
 }
 #counterText {
     color: black;
-    font-family: consolas, arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 4em;
     text-align: center;
 }
 #coloredBox {
     text-align: center;
-    background-color: black;
-    padding: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 5px;
-    height: 100px;
+    background-color: grey;
+    line-height: 150px;
+    width: 200px;
     color: white;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
 }
+.button-group2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+
 #pinkButton {
     background-color: pink;
 }
