@@ -8,7 +8,7 @@ body {
 }
 .button-group > button {
     font-size: 1.5em;
-    background: indigo;
+    background-color: indigo;
     padding:15px;
     color: yellow;
     margin-left: 10px;
