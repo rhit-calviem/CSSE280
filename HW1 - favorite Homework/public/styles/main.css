@@ -3,7 +3,7 @@ body {
 .page_container {
     margin-top: 75px;
 }
-.button-group {
+.button-group, .button-group-color {
     text-align: center;
 }
 .button-group > button {
@@ -31,8 +31,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 2em;
 }
-.button-group2 {
-    text-align: center;
+.button-group-color {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5em;
 }
