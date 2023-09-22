@@ -21,9 +21,9 @@ main = function() {
         changeColor("blue");
     }
 
-    document.querySelector('#pinkButton').onclick = (event) => {
-        console.log("pink");
-        changeColor("pink");
+    document.querySelector('#purpleButton').onclick = (event) => {
+        console.log("purple");
+        changeColor("purple");
     }
 
     document.querySelector('#greenButton').onclick = (event) => {
