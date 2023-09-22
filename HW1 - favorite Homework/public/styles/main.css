@@ -8,9 +8,9 @@ body {
 }
 .button-group > button {
     font-size: 1.5em;
-    background-color: indigo;
+    background-color: darkred;
     padding:15px;
-    color: yellow;
+    color: white;
     margin-left: 10px;
     margin-right: 10px;
     font-family:'Times New Roman', Times, serif;
@@ -23,7 +23,7 @@ body {
 }
 #coloredBox {
     text-align: center;
-    background-color: grey;
+    background-color: darkred;
     line-height: 150px;
     width: 200px;
     color: white;
@@ -36,8 +36,8 @@ body {
     font-size: 1.5em;
 }
 
-#pinkButton {
-    background-color: pink;
+#purpleButton {
+    background-color: purple;
 }
 #blueButton {
     background-color: blue;
@@ -47,4 +47,7 @@ body {
 }
 #redButton {
     background-color: red;
+}
+.navbar, .navbar-brand {
+    background-color: darkred;
 }
