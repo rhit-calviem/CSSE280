@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Exam 1- Hogwarts</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/main.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+            <div class="card" style="width: 500px;">
+                <div class="row g-0">
+                    <!-- Left Side -->
+                    <div class="col-md-4">
+                        <div class="card-body">
+                            <p>Hedwig</p>
+                        </div>
+                        <img src="images/hedwig.png" class="card-img-top" alt="Hedwig" id="bigImage">
+                    </div>
+
+
+                    <!-- Right Side (Content) -->
+                    <div class="col-md-8">
+                        <!-- Navbar -->
+                        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Portfolio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contacts</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <div id="mainPage" class="container page-container card-body min-vh-20 d-flex flex-column justify-content-center" id="mainContent">
+                            <p>We do deliverys at Hogwarts</p>
+                            <div class="button-group row justify-content-center g-4">
+                                <button id="buttonForChange" type="button" class="btn btn-secondary col-md-4">Select</button>
+                            </div>                            
+                        </div>
+                        
+    
+                        <!-- Footer -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="scripts/main.js" async defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

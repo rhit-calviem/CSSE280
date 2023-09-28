@@ -1,0 +1,10 @@
+#bigImage {
+    border: 10px solid black;
+    padding: 15px;
+}
+#mainContent {
+    text-align: center;
+}
+.image-group-color{
+    align-items: center;
+}
