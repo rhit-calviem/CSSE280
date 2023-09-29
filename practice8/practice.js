@@ -38,19 +38,19 @@ function average(num1, num2, num3){
 }
 
 //7
-multiply = (a,b) => a*b;
+const multiply = (a,b) => a*b;
 
 //8
-greet = (name) => `Hello, ${name}`;
+const greet = (name) => `Hello, ${name}`;
 
 //9
-square = (x) => x*x;
+const square = (x) => x*x;
 
 //10
-isEven = (num) => num%2==0;
+const isEven = (num) => num%2==0;
 
 //11
-findmAx = (numbers) => Math.max(...numbers);
+const findMax = (numbers) => Math.max(...numbers);
 
 //12
-addTwoNumbers = (a,b) => a+b;
+const addTwoNumbers = (a,b) => a+b;
