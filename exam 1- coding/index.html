@@ -7,31 +7,26 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles/main.css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico"> 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
-        <div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
-            <div class="card" style="width: 500px;">
-                <div class="row g-0">
-                    <!-- Left Side -->
-                    <div class="col-md-4">
-                        <div class="card-body">
-                            <p>Hedwig</p>
-                        </div>
-                        <img src="images/hedwig.png" class="card-img-top" alt="Hedwig" id="bigImage">
-                    </div>
 
 
-                    <!-- Right Side (Content) -->
-                    <div class="col-md-8">
-                        <!-- Navbar -->
-                        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid mt-4">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-sm-4">
+                </div>
+            <!-- NAV -->
+                <div class="col-sm-6"> 
+                    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                        <div class="container">
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse" id="navbarNav">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item"> 
                                         <a class="nav-link" href="#">Home</a>
                                     </li>
                                     <li class="nav-item">
@@ -42,20 +37,65 @@
                                     </li>
                                 </ul>
                             </div>
-                        </nav>
-                        <div id="mainPage" class="container page-container card-body min-vh-20 d-flex flex-column justify-content-center" id="mainContent">
-                            <p>We do deliverys at Hogwarts</p>
-                            <div class="button-group row justify-content-center g-4">
-                                <button id="buttonForChange" type="button" class="btn btn-secondary col-md-4">Select</button>
-                            </div>                            
                         </div>
-                        
+                    </nav>
+                </div>
     
-                        <!-- Footer -->
+            </div>
+        </div>
+        <!-- MAIN -->
+        <main>
+            <div class="container-fluid">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-sm-4">
+                        <div class="card custom-card align-items-center">
+                            <div class="card-body">
+                                <div class="card-title" id="cardText">Hedwig</div>
+                            </div>
+                                <img class="card-img-bottom " id="cardImage" src="images/hedwig.png" alt="Card image">
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-6 center-content"> 
+                        <div class="container-fluid  center-content"> 
+                                <div id="mainParagraph" class="mb-5 d-flex justify-content-center"> Welcome to Hogwarts services! <br> 
+                                    We provide mail and commercial services for Hogwarts <br> 
+                                    Click the button to choose the owl you want to use for deliveries!</div>
+                                <div class="mb-5 d-flex justify-content-center" >
+                                    <button id="owlButton" class="btn btn-info" type="button" data-toggle="dropdown" style="font-size:25px">Click to change owl</button>
+                                </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </main>
+        <!-- FOOTER -->
+        <footer>
+            <div class="container-fluid mt-4">
+              <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-sm-4"></div>
+                    <div class="col-sm-6 center-content">
+                        <div class="container-fluid">
+                            <div class="row justify-content-center">
+                                <div class="col-3 d-flex justify-content-center align-items-center">
+                                <img src="images/instagram.png" alt="Instagram" width="60px">
+                                </div>
+                                <div class="col-3 d-flex justify-content-center align-items-center" >
+                                <img src="images/twitter.png" alt="Twitter" width ="80px">
+                                </div>
+                                <div class="col-3 d-flex justify-content-center align-items-center">
+                                <img src="images/dribbble-logo.png" alt="Basketball" width ="60px">
+                                </div>
+                                <div class="col-3 d-flex justify-content-center align-items-center">
+                                <img src="images/behance.png" alt="Behance" width ="60px">
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+              </div>
+          </footer>              
+    
+    
         <script src="scripts/main.js" async defer></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
     </body>

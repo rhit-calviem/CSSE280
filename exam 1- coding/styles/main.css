@@ -1,10 +1,24 @@
-#bigImage {
-    border: 10px solid black;
-    padding: 15px;
-}
-#mainContent {
+#navbarNav {
     text-align: center;
-}
-.image-group-color{
     align-items: center;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#cardText {
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#cardImage {
+    border: 5px solid black;
+}
+#owlButton {
+    background-color: lightskyblue;
+    color: darkblue;
+    border-color: darkblue;
+    border-radius: 30px;
+}
+#mainParagraph {
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
