@@ -24,7 +24,7 @@ const greeting = function(name){
 //5
 function calculate(x,y){
     const sumOfSquares = function(x,y){
-        return x^2+y^2;
+        return (x+y)^2;
     }
     return sumOfSquares(x,y);
 }
