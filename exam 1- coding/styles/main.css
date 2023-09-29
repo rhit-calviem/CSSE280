@@ -4,12 +4,12 @@
     font-size: 2em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#cardText {
+#cardTitle {
     font-size: 3em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#cardImage {
-    border: 5px solid black;
+#cardOwl {
+    border: 15px solid black;
 }
 #owlButton {
     background-color: lightskyblue;
@@ -21,4 +21,7 @@
     font-size: 2em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+}
+.card {
+    border: 5px solid black;
 }
