@@ -2,7 +2,6 @@ main = function() {
     console.log("Ready");
 
     document.querySelector("#owlButton").onclick = (event) => {
-        let a = 0;
         
         console.log("change owl");
         if (a == 0) {
@@ -22,6 +21,6 @@ main = function() {
         }
     };
 }   
-
+let a = 0;
 main();
 
