@@ -23,8 +23,8 @@ const greeting = function(name){
 
 //5
 function calculate(x,y){
-    const sumOfSquares = function(x,y){
-        return (x+y)^2;
+    const sumOfSquares = function(a,b){
+        return (a+b)^2;
     }
     return sumOfSquares(x,y);
 }
@@ -34,7 +34,7 @@ function average(num1, num2, num3){
     const average = function(x,y,z){
         return (x+y+z)/3;
     }
-    return sumOfSquares(num1, num2, num3);
+    return average(num1, num2, num3);
 }
 
 //7
