@@ -6,17 +6,15 @@ main = function() {
         console.log("change owl");
         if (a == 0) {
             a = 1;
-            console.log(a);
             document.querySelector("#cardOwl").src = "images/pigwidgeon.png"
             document.querySelector("#cardTitle").innerHTML = "PigWidgeon";
-            console.log("change pig");
+            console.log("Pigwidgeon");
         } 
         else  {
             document.querySelector("#cardOwl").src = "images/hedwig.png"
             document.querySelector("#cardTitle").innerHTML = "Hedwig";
-            console.log("change hed");
+            console.log("Hedwig");
             a = 0;
-            console.log(a);
 
         }
     };

@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "games-tictactoe-efa50"
+  },
+  "targets": {
+    "games-tictactoe-efa50": {
+      "hosting": {
+        "01": [
+          "games-tictactoe-efa50"
+        ],
+        "02": [
+          "tictactoegame02"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
