@@ -1,17 +1,37 @@
-/* Center the header */
 .header-container {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  /* Center the text and button inside the card */
-  .card {
+    font-size: 20px;
+}
+
+.card {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 20px;
-  }
+}
+
+.navbar{
+    background-color: purple;
+    color: black;
+    font-size: 30px;
+}
+
+.navbar.navbar .navbar-brand {
+    font-size: 30px;
+}
+
+body {
+    background: linear-gradient(to right, white, purple);
+    font-size: 15px;
+}
+
+.button button {
+    background-color: purple;
+    color: white;
+}
+
   
