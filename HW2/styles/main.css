@@ -1,0 +1,17 @@
+/* Center the header */
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Center the text and button inside the card */
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
