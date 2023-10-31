@@ -3,10 +3,10 @@ const fs = require('fs').promises;
 const app = express();
 app.use(express.json());
 app.use(express.static('public'));
-const booksFilePath= '.data/books.json';
+const booksFilePath = '.data/books.json';
 async function readBooks() {
     try{
-        const data = await fs.readFile(booksFilePath(), 'utf-8');
+        const data = await fs.readFile(booksFilePath, 'utf-8');
         return JSON.parse(data);
     } catch(error) {
         console.error('Error readin books: ', error);
